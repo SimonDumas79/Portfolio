@@ -403,7 +403,7 @@ main a:focus
     z-index: 1;
 }
 
-#about-me-info
+#about-me-info, #about-me-info-mobile
 {
     opacity: 100%;
     width: 45%;
@@ -412,7 +412,7 @@ main a:focus
     transition: opacity .35s cubic-bezier(0.17, 0.67, 0.83, 0.67) 1.5s;
 }
 
-#about-bb-info
+#about-bb-info, #about-bb-info-mobile
 {
     opacity: 0%;
     width: 45%;
@@ -420,6 +420,11 @@ main a:focus
     top: 25%;
     transition: opacity .35s cubic-bezier(0.17, 0.67, 0.83, 0.67);
     text-align: left;
+}
+
+#about-mobile
+{
+    display: none;
 }
 
 #about-me-info.bb-styles
@@ -471,32 +476,11 @@ main a:focus
     }
     #about
     {
-        height: 90%;
-        margin-top: 100px;
-        padding-top: 500px;
+        display: none;
     }
-    #about > p
+    #about-mobile
     {
-        margin: auto;
-        font-size: large;
-        position: relative;
-        z-index: 1;
-    }
-    #about-me-info
-    {
-        opacity: 100%;
-        width: 45%;
-        left: 20%;
-        top: 25%;
-        transition: opacity .35s cubic-bezier(0.17, 0.67, 0.83, 0.67) 1.5s;
-    }
-    #about-me-info
-    {
-        opacity: 100%;
-        width: 45%;
-        left: 20%;
-        top: 25%;
-        transition: opacity .35s cubic-bezier(0.17, 0.67, 0.83, 0.67) 1.5s;
+        display: block;
     }
 }
 /* About End */

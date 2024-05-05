@@ -1,0 +1,107 @@
+{
+    "skills": [
+      {
+        "icon": "<img src='images/c-sharp-icon.png' alt='C# Icon' style='width: 35px;'>",
+        "name": "<h2>C#</h2>"
+      },
+      {
+        "icon": "<img src='images/c++-icon.png' alt='C++ Icon' style='width: 35px;'>",
+        "name": "<h2>C++</h2>"
+      },
+      {
+        "icon": "<img src='images/js.svg' alt='JavaScript Icon' style='width: 35px;'>",
+        "name": "<h2>JavaScript</h2>"
+      },
+      {
+        "icon": "<img src='images/html-icon.png' alt='HTML Icon' style='width: 35px;'>",
+        "name": "<h2>HTML</h2>"
+      },
+      {
+        "icon": "<img src='images/css3.svg' alt='CSS Icon' style='width: 35px;'>",
+        "name": "<h2>CSS</h2>"
+      },
+      
+      {
+        "icon": "<img src='images/ps-icon.png' alt='Photoshop Icon' style='width: 35px;'>",
+        "name": "<h2>Photoshop</h2>"
+      },
+      {
+        "icon": "<img src='images/mayaicon.png' alt='Maya Icon' style='width: 35px;'>",
+        "name": "<h2>Maya</h2>"
+      },
+      {
+        "icon": "<img src='images/oop-icon.png' alt='Object Oriented Programming Icon' style='width: 35px;'>",
+        "name": "<h2 style='font-size: larger;'>Object Oriented Programming</h2>"
+      },
+      {
+        "icon": "<img src='images/game-dev-icon.png' alt='Game Dev Icon' style='width: 35px;'>",
+        "name": "<h2 style='font-size: large; margin: auto 0;'>Game Development</h2>"
+      },
+      {
+        "icon": "<img src='images/agile-icon.png' alt='Agile Icon' style='width: 35px;'>",
+        "name": "<h2 style='font-size: large;'>Agile Production Methods</h2>"
+      },
+      {
+        "icon": "<img src='images/unity-icon.png' alt='Unity Icon' style='width: 35px;'>",
+        "name": "<h2>Unity</h2>"
+      },
+      {
+        "icon": "<img src='images/monogame-icon.png' alt='Monogame Icon' style='width: 35px;'>",
+        "name": "<h2>Monogame</h2>"
+      },
+      {
+        "icon": "<img src='images/visual-studio-icon.png' alt='Visual Studio Icon' style='width: 35px;'>",
+        "name": "<h2>Visual Studio</h2>"
+      },
+      {
+        "icon": "<img src='images/responsive-icon.png' alt='Computer, Tablet, Cell Phone Icon' style='width: 35px;'>",
+        "name": "<h2 style='font-size: large;'>Resonsive Web Design</h2>"
+      },
+      {
+        "icon": "<img src='images/data-structures-icon.png' alt='Data Tree Icon' style='width: 35px;'>",
+        "name": "<h2 style='font-size: large; margin: auto 0;'>Data Structures</h2>"
+      },
+      {
+        "icon": "<img src='images/algorithm-icon.png' alt='Algorithm Icon' style='width: 35px;'>",
+        "name": "<h2>Algorithms</h2>"
+      },
+      {
+        "icon": "<img src='images/github-icon.png' alt='Algorithm Icon' style='width: 35px;'>",
+        "name": "<h2 style='font-size: large; margin: auto 0;'>Github / Version Control</h2>"
+      }
+    ],
+    "projects": [
+        {
+            "icon": "<img src='images/ff-skeleton-sprite.png' alt='Friendly Fire Skeleton Sprite' style='height: 35px;'>",
+            "name": "<h2>Friendly Fire</h2>",
+            "content": "Friendly Fire is a roguelike built in Monogame by a team of 5. I contributed greatly to the systems and main gameplay loop of the game, programming the level system, enemy AI, movement, collision, and UI. Production utilized agile methodologies.",
+            "status": "Complete"
+          },
+          {
+            "icon": "<img src='images/firetower.png' alt='C# Icon' style='width: 35px;'>",
+            "name": "<h2 style='font-size: larger;'>Apello Valley Watch</h2>",
+            "content": "Apello Valley Watch is a horror game produced and published by Board Bound Games. Built within Unity, I worked on custom character controllers and interactions, event systems, diegetic UI, and custom 3D models.",
+            "status": "In-Progress"
+          },
+          {
+            "icon": "<img src='images/CueTheChaosNoBG.png' alt='Cue The Chaos Flaming 8 Ball Icon' style='width: 35px;'>",
+            "name": "<h2>Cue The Chaos</h2>",
+            "content": "Cue The Chaos is a game produced by Board Bound Games in Unity. I contributed to the development of a dynamic character controller, numerous independent AI entities, and 3D models.",
+            "status": "In-Progress"
+          },
+          {
+            "icon": "<img src='images/snake-icon.png' alt='Snake Icon' style='width: 35px;'>",
+            "name": "<h2>Snake</h2>",
+            "content": "Snake is a solo developer project I took on over the course of 2 days. Using custom art and sounds along with open source music, the game was built in Monogame. This game was the first that I published and was an exercise in creating up to standard programs on a short deadline.",
+            "status": "<a href='https://siman.itch.io/snake'>Published</a>"
+          }
+    ],
+    "experiences": [
+        {
+            "icon": "<img src='images/boardboundicon.svg' alt='Board Bound Smily Icon' style='width: 30px; border-radius: 5px;'>",
+            "name": "<h2>Board Bound</h2>",
+            "content": "William Creighton, Brian Creelman, and I started Board Bound Games in 2023. Since then, we have strived to maintain high standards and create quality experiences. At Board Bound Games, we focus on self-improvement. Board Bound pushes me across the board, as I work on my skills in Unity, C#, Maya, and OOP."
+          }
+    ]
+  }
+  

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Dumas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Public+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div id="navbar-pc">
+                <div id="menu-toggle-button">
+                    <div class="menu-toggle-piece"></div>
+                    <div class="menu-toggle-piece"></div>
+                    <div class="menu-toggle-piece"></div>
+                </div>
+                <div id="sidebar-nav">
+                    <div id="nav-element-container">
+                        <a href="#about" class="nav-element">About</a>
+                        <a href="#page" class="nav-element skills-link">Skills</a>
+                        <a href="#page" class="nav-element projects-link">Projects</a>
+                        <a href="#page" class="nav-element experience-link">Experience</a>
+                        <a href="#contact" class="nav-element">Contact</a>
+                    </div>
+                    <div></div>
+                    <div id="sidebar-socials">
+                        <a href="https://www.linkedin.com/in/simon-a-dumas/">
+                            <i id="sidebar-linkedin" class="fa-brands fa-linkedin fa-5x"></i>
+                        </a>
+                        <a href="https://linktr.ee/boardboundgames">
+                            <img src="images/boardboundgames.svg" alt="Board Bound Games Logo" id="sidebar-boardboundgames">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="navbar-mobile">
+                <div id="menu-toggle-button-mobile">
+                    <div class="menu-toggle-piece-mobile"></div>
+                    <div class="menu-toggle-piece-mobile"></div>
+                    <div class="menu-toggle-piece-mobile"></div>
+                </div>
+                <div id="dropdown-nav">
+                    <div id="nav-element-container-mobile">
+                        <a href="#about" class="nav-element-mobile">About</a>
+                        <a href="#skills" class="nav-element-mobile skills-link">Skills</a>
+                        <a href="#projects" class="nav-element-mobile projects-link">Projects</a>
+                        <a href="#projects" class="nav-element-mobile experience-link">Experience</a>
+                        <a href="#contact" class="nav-element-mobile">Contact</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div id="main-wrapper">
+            <div id="about">
+                <h2 id="about-me-header">Simon</h2>
+                <p id="about-me-info">
+                    Studying Game Design and Development at RIT, I have experience developing games, websites, and software with C#, C++, HTML, CSS, and JavaScript.
+                </p>
+                
+                
+                <img id="about-bb-header" src="images/boardbound-logo.svg" alt="Board Bound Games">
+                <p id="about-bb-info">
+                    At Board Bound Games, we dedicate ourselves to creating fun, quality games. Founded by myself, Brian Creelman, and William Creighton, we passionately push forward to create immersive and meaningful experiences. See more about us <a href="https://linktr.ee/boardboundgames">here</a>!
+                </p>
+                
+                
+                <i id= "about-left-arrow" class="fa-solid fa-chevron-up about-arrow"></i>
+                <i id= "about-right-arrow" class="fa-solid fa-chevron-up about-arrow bb-styles"></i>
+
+            </div>
+
+            <div id="pages">
+                <div id="page-labels">
+                    <div class="page-label selected-page" id="skills">Skills</div>
+                    <div class="page-label" id="projects">Projects</div>
+                    <div class="page-label" id="experiences">Experience</div>
+                </div>
+            </div>
+            <div id="page" class="skill-selected">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="contact">
+            <h2>Contact</h2>
+            <div>
+                <h3>Email:</h3><a href="mailto:email@example.com">sad1667@g.rit.edu</a>
+            </div>
+            <div>
+                <h3>Github:</h3><a href="https://github.com/SimonDumas79">github.com/SimonDumas79</a>
+            </div>
+            <div>
+                <h3>Resume:</h3><a href="images/Resume.pdf" target="_blank">View My Resume</a>
+            </div>
+            <div>
+                <h3>Itch.io:</h3><a href="https://siman.itch.io/" target="_blank">siman.itch.io</a>
+            </div>
+            <div class="centered-contact">
+                <a href="https://www.linkedin.com/in/simon-a-dumas/"><h3>Visit my LinkedIn!</h3></a>
+            </div>
+            
+            <h3></h3>
+            <p></p>
+
+            <h3></h3>
+            <p></p>
+
+            <h3></h3>
+            <p></p>
+            
+        </div>
+        
+    </footer>
+</body>
+    <script type="module" src="src/content.js"></script>
+</html>
